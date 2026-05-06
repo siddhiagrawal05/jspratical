@@ -1,0 +1,116 @@
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  background: linear-gradient(90deg, #bb86fc, #03dac6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.task-section {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 30px;
+  backdrop-filter: blur(10px);
+}
+
+.task-title {
+  font-size: 1.4rem;
+  color: #bb86fc;
+  margin-bottom: 8px;
+}
+
+.task-description {
+  color: #aaa;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.task-description code {
+  background: rgba(187, 134, 252, 0.2);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: #bb86fc;
+}
+
+
+.child-card {
+  background: rgba(3, 218, 198, 0.08);
+  border: 1px solid rgba(3, 218, 198, 0.3);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.child-card-header {
+  background: rgba(3, 218, 198, 0.15);
+  padding: 12px 20px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #03dac6;
+}
+
+.child-card-body {
+  padding: 20px;
+}
+
+.child-card-body p {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.child-card-footer {
+  padding: 12px 20px;
+  background: rgba(3, 218, 198, 0.05);
+  font-size: 0.85rem;
+  color: #888;
+  border-top: 1px solid rgba(3, 218, 198, 0.15);
+}
+
+
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.user-card {
+  background: rgba(187, 134, 252, 0.08);
+  border: 1px solid rgba(187, 134, 252, 0.2);
+  border-radius: 12px;
+  padding: 18px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.user-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(187, 134, 252, 0.15);
+}
+
+.user-username {
+  font-size: 1.05rem;
+  margin-bottom: 6px;
+}
+
+.user-email {
+  font-size: 0.95rem;
+  color: #aaa;
+}
+
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #bb86fc;
+  padding: 40px;
+}
